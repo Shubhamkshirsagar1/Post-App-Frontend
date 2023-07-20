@@ -1,0 +1,19 @@
+.allposts-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 2rem auto;
+}
+.all-posts-card {
+  box-shadow: var(--shadow-color);
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.all-post-heading {
+  margin: 25px 0 0 0;
+  color: var(--green);
+}
